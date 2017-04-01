@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>test</title>
+  <link href="css/flexnav.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="menu-button">Menu</div>
+        <nav>
+          <ul data-breakpoint="800" class="flexnav">
+            <li><a href="">Item 1</a>
+              <ul>
+                <li><a href="#">Sub 1 Item 1</a></li>
+                <li><a href="#">Sub 1 Item 2</a></li>
+                <li><a href="#">Sub 1 Item 3</a></li>
+                <li><a href="#">Sub 1 Item 4</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Item 2</a>
+              <ul>
+                <li><a href="#">Sub 1 Item 1</a></li>
+                <li><a href="#">Sub 1 Item 2</a>
+                  <ul>
+                    <li><a href="#">Sub 2 Item 1</a></li>
+                    <li><a href="#">Sub 2 Item 2</a></li>
+                    <li><a href="#">Sub 2 Item 3</a></li>
+                    <li><a href="#">Sub 2 Item 4</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Sub 1 Item 3</a>
+                  <ul>
+                    <li><a href="#">Sub 2 Item 1</a></li>
+                    <li><a href="#">Sub 2 Item 2</a>
+                      <ul>
+                        <li><a href="#">Sub 3 Item 1</a></li>
+                        <li><a href="#">Sub 3 Item 2</a></li>
+                        <li><a href="#">Sub 3 Item 3</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Item 3</a>
+              <ul>
+                <li><a href="#">Sub 1 Item 1</a></li>
+                <li><a href="#">Sub 1 Item 2</a></li>
+                <li><a href="#">Sub 1 Item 3</a></li>
+              </ul>
+            </li>
+            <li><a href="">Item 4</a>
+              <ul>
+                <li><a href="#">Sub 1 Item 1</a></li>
+                <li><a href="#">Sub 1 Item 2</a></li>
+                <li><a href="#">Sub 1 Item 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Item 5</a>
+              <ul>
+                <li><a href="#">Sub 1 Item 1</a></li>
+                <li><a href="#">Sub 1 Item 2</a></li>
+                <li><a href="#">Sub 1 Item 3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
+        <script type="text/javascript">
+          $(".flexnav").flexNav({ 'animationSpeed' : 'fast',
+                                  'hoverIntent': false});
+        </script>
+</body>
+
+</html>

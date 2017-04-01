@@ -1,0 +1,22 @@
+ul,
+li {
+  padding-left: 0; }
+
+.menu-button,
+nav {
+  width: 300px; }
+
+a {
+  text-decoration: none; }
+
+.menu-button {
+  background: #959591; }
+
+.flexnav li a {
+  background: #a6a6a2; }
+
+.flexnav li ul li a {
+  background: #b2bbaf; }
+
+.flexnav ul li ul li ul li a {
+  background: #cbcbc9; }
